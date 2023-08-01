@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+:root {
+    --Blue-color: #1355ff;
+}
+
+body {
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+section {
+    padding: 60px 160px;
+    display: flex;
+    border: 1px solid #f2f3f8;
+}
+
+section .con {
+    margin: 40px;
+    padding: 60px;
+}
+
+section .con:hover {
+    /* background-color: lightgreen; */
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 68px 68px 196px -32px rgba(6, 18, 55, 0.08);
+}
+
+section .con ul {
+    padding-left: 0;
+}
+
+section .con ul img {
+    padding: 20px;
+    background-color:  #f5f9ff;
+    margin-bottom: 40px;
+}
+
+section .con ul h4 {
+    font-size: 14px;
+    font-weight: 500;
+    /* letter-spacing: 0.5px; */
+    margin-bottom: 40px;
+}
+
+section .con ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+section .con ul li:last-child {
+    margin-bottom: 0;
+}
+
+section .con ul li a {
+    font-size: 14px;
+    color: #37456c;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+section #con-2 {
+    padding-right: 120px;
+}
+
+section .con ul li a:hover {
+    color: var(--Blue-color);
+    transition: 0.4s;
+}
